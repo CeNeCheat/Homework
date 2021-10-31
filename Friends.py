@@ -11,7 +11,7 @@ while True:
             print(s)
     elif user == "Нет" or user == "No":
         for s in list:
-            print(s)
+            print(len(list))
         break
     else:
         print("Что ты ввел? Алло! Ответь да или нет! Не строй из себя умника!")
