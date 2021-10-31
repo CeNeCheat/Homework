@@ -4,3 +4,5 @@ for num in numbers:
 user = int(input("Введите трехзначное числно: "))
 if user == numbers[0] or user == numbers[2] or user == numbers[3] or user == numbers[1]:
     print(numbers.index(user))
+else:
+    print("that is not in the list")
